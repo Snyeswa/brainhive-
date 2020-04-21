@@ -1,34 +1,45 @@
 import React, { Component } from 'react';
 import './App.css';
 import Resource from './components/Resource';
+import resources from './mock/resources';
+
 
 class App extends Component{
 
-  resource = {
-    posterName: "Cliff",
-    resourceAuthor: 'NetNinja',
-    authorSkillLevel: 'Advanced',
-    cohort: '0',
-    title: 'React & Redux Complete',
-    categories: ['React', 'Redux'],
-    summary: 'A good resource on building a couple react apps with and without  redux,',
-    link: 'www.google.com/search?q=NetNinja%20React',
-    resourceType: 'Playlist',
-    datePublished: '2018-09-10.00.00.00.00z',
-    videoLength: null,
-    timeToComplete: 300,
-    rating: 5,
-    comments: [{user: 'Joe', text: 'Pretty good resource'}, {user: 'Phen', text: 'The best to learn n React with'}]
+//<Resource resource={aResource}/>, <Resource resource={aResource}
+// constructor(props) {
+//   super(props);
+//   const that = this
+//   // this.renderPosts.bind(this)    is-doing-this = App.renderPosts.bind(App)
 
+// }
+
+
+
+renderPosts() {
+  // function mapResources (resource) {
+  //   return <Resource resource={resource} />;
+  // };
+  const display = resources.map((resource) => {
+    return <Resource resource={resource} />;
+  });
+
+  return display;
 }
+// const display = this.resources.map(mapResources);
+
   render() {
+    // const display = this.resources.map(function (resource) {
+    //   return <Resource resource={resource} />;
+    // });
   return (
-    
     <div className="App">
     <h1>Welcome to BrainHive!</h1>
-    <Resource resource={this.resource} />
-    <Resource resource={this.resource} />
-    <Resource resource={this.resource} />  
+    {/* <Resource resource={this.resource[0]} />
+    <Resource resource={this.resource[1]}/>
+    <Resource resource={this.resource [2]} />   */}
+    {this.renderPosts()}
+    {/* {display} */}
     </div>
   );
 }
