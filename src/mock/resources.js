@@ -10,7 +10,7 @@ const resources = [
     summary: 'A good resource on building a couple react apps with and without  redux,',
     link: 'www.google.com/search?q=NetNinja%20React',
     resourceType: 'Playlist',
-    datePublished: '2018-09-10.00.00.00.00z',
+    datePublished: '2018-08-08.00.00.00.00z',
     videoLength: null,
     timeToComplete: 300,
     rating: 5,
@@ -46,14 +46,86 @@ const resources = [
   summary: 'A good resource on building a couple react apps with and without  redux,',
   link: 'www.google.com/search?q=NetNinja%20React',
   resourceType: 'Playlist',
-  datePublished: '2018-09-10.00.00.00.00z',
+  datePublished: '2018-06-20.00.00.00.00z',
   videoLength: null,
   timeToComplete: 300,
   rating: 5,
   comments: [{user: 'Joe', text: 'Pretty good resource'}, 
   {user: 'Phen', text: 'The best to learn n React with'}]
 
-}
+},
+
+{
+    posterName: "Paul R",
+    resourceAuthor: 'Scott Media',
+    authorSkillLevel: 'Advanced',
+    cohort: '8',
+    title: 'React JS Crouse',
+    categories: ['React', 'Redux'],
+    summary: 'A good resource on building a couple react apps with and without  redux,',
+    link: 'www.google.com/search?q=NetNinja%20React',
+    resourceType: 'Full Course',
+    datePublished: '2019-06-10.00.00.00.00z',
+    videoLength: null,
+    timeToComplete: 120,
+    rating: 5,
+    comments: [{user: 'Paul', text: 'Great video with instructions'}, 
+    {user: 'Sam', text: 'Simple and Straight to the point'}]
+  },
+
+  {
+    posterName: "Jennies",
+    resourceAuthor: 'CodeGirl Media',
+    authorSkillLevel: ['Beginners', 'Intermediate', 'Advanced'],
+    cohort: '8',
+    title: 'React JS Crouse',
+    categories: ['React', 'Redux'],
+    summary: 'A good resource on building a couple react apps with and without  redux,',
+    link: 'www.google.com/search?q=NetNinja%20React',
+    resourceType: 'Full Course',
+    datePublished: '2019-02-16.00.00.00.00z',
+    videoLength: null,
+    timeToComplete: 260,
+    rating: 5,
+    comments: [{user: 'Betty', text: 'Great video with instructions'}, 
+    {user: 'Joe', text: 'Simple and Straight to the point'}]
+  },
+
+  {
+    posterName: "Kenny",
+    resourceAuthor: 'Smith Entertainment',
+    authorSkillLevel: 'Advanced',
+    cohort: '8',
+    title: 'React JS Crouse',
+    categories: ['React', 'Redux'],
+    summary: 'A wonderful resource on building a couple react apps with and with and without redux,',
+    link: 'www.google.com/search?q=NetNinja%20React',
+    resourceType: 'Crash Course',
+    datePublished: '2019-06-10.00.00.00.00z',
+    videoLength: null,
+    timeToComplete: 180,
+    rating: 5,
+    comments: [{user: 'James', text: 'Great video with instructions'}, 
+    {user: 'Bill', text: 'Simple and Straight to the point'}]
+  },
+
+  {
+    posterName: "Maglis",
+    resourceAuthor: 'Maglis Production',
+    authorSkillLevel: 'Advanced',
+    cohort: '8',
+    title: 'React JS Crouse',
+    categories: ['React', 'Redux'],
+    summary: 'A wonderful resource on building a couple react apps with and with and without redux,',
+    link: 'www.google.com/search?q=NetNinja%20React',
+    resourceType: 'Crash Course',
+    datePublished: '2020-05-04.00.00.00.00z',
+    videoLength: null,
+    timeToComplete: 180,
+    rating: 5,
+    comments: [{user: 'Juan', text: 'Great video with instructions'}, 
+    {user: 'Lawrence', text: 'Simple and Straight to the point'}]
+  },
 ]
 
 export default resources;
