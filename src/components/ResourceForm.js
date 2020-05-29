@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Button} from  "react-materialize";
+import {Button, Select } from  "react-materialize";
 
 class ResourceForm extends Component {
   state = {
@@ -73,8 +73,9 @@ class ResourceForm extends Component {
             value={this.state.resourceAuthor}
             onChange={this.handleChange}
           />
-          <select
-            style={styles.input}
+
+          <Select
+            // style={styles.input}
             id="authorSkillLevel"
             value={this.state.authorSkillLevel}
             onChange={this.handleChange}
@@ -85,7 +86,8 @@ class ResourceForm extends Component {
             <option value="Intro">Intro</option>
             <option value="Intermediate">Intermediate</option>
             <option value="Advanced">Advanced</option>
-          </select>
+          </Select>
+
           <input
             style={styles.input}
             id="cohort"
@@ -181,6 +183,7 @@ const styles = {
     fontSize: 20,
     marginBottom: 8,
   },
+  
   button: {
     alignSelf: "center",
     // backgroundColor: "#F96295",

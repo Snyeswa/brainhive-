@@ -34,7 +34,6 @@ renderPosts() {
   return display;
 }
 
-
   render() {
   return (
     <div className="App">
