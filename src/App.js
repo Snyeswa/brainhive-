@@ -4,7 +4,6 @@ import Resource from './components/Resource';
 import resources from './mock/resources';
 import ResourceForm from './components/ResourceForm';
 
-
 class App extends Component{
 
 //<Resource resource={aResource}/>, <Resource resource={aResource}

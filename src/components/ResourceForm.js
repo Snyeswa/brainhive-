@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Button} from  "react-materialize";
 
 class ResourceForm extends Component {
   state = {
@@ -157,9 +158,8 @@ class ResourceForm extends Component {
             value={this.state.rating}
             onChange={(e) => this.handleChange(e)}
           />
-          <button style={styles.button} type="submit">
-            Submit
-          </button>
+          <Button type="submit">
+            Submit </Button>
         </form>
       </div>
     );
